@@ -21,7 +21,9 @@ unset tem1
 unset tem2
 ```
 If somehow cannot install `ifconfig`,maybe you need to do is ONE of two options here
+
 a. Using docker or podman to run [djypku/idlprerun](https://hub.docker.com/repository/docker/djypku/idlprerun) with `sudo`. The container will automatically exit.
+
 b. Running that
 ```
 tem1=`ifconfig|grep enp`
