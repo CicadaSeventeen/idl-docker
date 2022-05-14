@@ -41,6 +41,8 @@ lmgrd
 ```
 Then use `idlde` to use it.
 
+After using it. Please stop the conainter or it will use up to 100% of one cpu core.
+
 
 podman can also work for it,
 
